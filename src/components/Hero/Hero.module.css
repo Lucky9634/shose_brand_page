@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 75%;
+    margin: 1rem auto;
+    gap: 5rem;
+    /* background-color: yellow; */
+}
+
+.heroContent {
+    width: 50%;
+}
+
+.heroContent h1 {
+    font-size: 5rem;
+}
+
+.heroContent p:nth-child(2) {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.heroContent img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.heroImgs img:nth-child(2) {
+    margin-left: 5px;
+    border-radius: 10rem;
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.heroImg {
+    width: 50%;
+    height: 50%;
+}
+
+.heroImg img {
+    width: 77%;
+    object-fit: cover;
+}
+
+.btn {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.btn button:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #ff3c56;
+    padding: 5px 12px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.btn button:nth-child(1) span {
+   color: white;
+}
+.btn button:nth-child(1):hover {
+    background-color: #4C515B;
+    transition: all 0.3s; 
+}
+
+.btn button:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #ff3c56;
+    padding: 5px 12px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.btn button:nth-child(2) span {
+    color: white;
+    transition: all 0.3s;
+ }
+.btn button:nth-child(2):hover {
+    background-color: #4C515B;
+    color: white;
+    
+}
+
+
+.heroContent span:nth-child(2){
+    color:  #ff3c56;
+}
+main h1 span{
+    display: inline-block;
+}
